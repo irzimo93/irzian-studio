@@ -1,0 +1,13 @@
+{
+  "name": "irzian-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "IRZIAN STUDIO — Software, Automation & Digital Products",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
