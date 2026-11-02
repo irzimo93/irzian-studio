@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#21113b">
+  <meta name="theme-color" content="#08040f">
   <meta name="description" content="IRZIAN STUDIO — Software, Automation and Digital Products. Built with Trust. Made to Last.">
   <title>IRZIAN STUDIO — Built to Last</title>
 
@@ -41,32 +41,118 @@
 
     <div class="emblem-frame">
 
-      <!-- SILVER CROWN -->
+      <!-- SILVER ROYAL CROWN WITH PURPLE FOUNDER M -->
       <div class="crown">
-        <svg viewBox="0 0 180 100" role="img" aria-label="Silver crown">
+        <svg viewBox="0 0 180 110" role="img" aria-label="Silver royal crown with purple M">
+
           <defs>
             <linearGradient id="crownSilver" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stop-color="#ffffff"/>
-              <stop offset="48%" stop-color="#aeb5c5"/>
-              <stop offset="100%" stop-color="#f7f7ff"/>
+              <stop offset="30%" stop-color="#dce0e8"/>
+              <stop offset="55%" stop-color="#8992a5"/>
+              <stop offset="80%" stop-color="#f5f5ff"/>
+              <stop offset="100%" stop-color="#aeb5c5"/>
             </linearGradient>
+
+            <linearGradient id="crownPurple" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#e9dcff"/>
+              <stop offset="45%" stop-color="#a78bfa"/>
+              <stop offset="100%" stop-color="#6d28d9"/>
+            </linearGradient>
+
+            <filter id="crownGlow">
+              <feGaussianBlur stdDeviation="2" result="blur"/>
+              <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
           </defs>
 
-          <path d="M25 68 L12 22 L52 48 L90 5 L128 48 L168 22 L155 68 Z"
-                fill="url(#crownSilver)" stroke="#ffffff" stroke-width="2"/>
+          <!-- Crown structure -->
+          <path
+            d="M25 68 L12 22 L52 48 L90 5 L128 48 L168 22 L155 68 Z"
+            fill="url(#crownSilver)"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linejoin="round"
+          />
 
-          <path d="M25 78 H155 L148 91 H32 Z"
-                fill="url(#crownSilver)" stroke="#ffffff" stroke-width="2"/>
+          <!-- Silver crown band -->
+          <path
+            d="M25 78 H155 L148 91 H32 Z"
+            fill="url(#crownSilver)"
+            stroke="#ffffff"
+            stroke-width="2"
+          />
 
+          <!-- Engraved silver details -->
+          <path
+            d="M35 65 L52 48 L65 67
+               M115 67 L128 48 L145 65
+               M72 65 L90 43 L108 65"
+            fill="none"
+            stroke="#737c90"
+            stroke-width="2"
+            opacity="0.85"
+          />
+
+          <!-- Central purple royal jewel -->
+          <circle
+            cx="90"
+            cy="58"
+            r="18"
+            fill="url(#crownPurple)"
+            stroke="#f1eaff"
+            stroke-width="2.5"
+            filter="url(#crownGlow)"
+          />
+
+          <circle
+            cx="90"
+            cy="58"
+            r="13"
+            fill="none"
+            stroke="#e9dcff"
+            stroke-width="1"
+            opacity="0.7"
+          />
+
+          <!-- Founder initial -->
+          <text
+            x="90"
+            y="67"
+            text-anchor="middle"
+            font-family="Georgia, serif"
+            font-size="25"
+            font-weight="bold"
+            fill="#ffffff"
+            stroke="#6d28d9"
+            stroke-width="0.6"
+          >M</text>
+
+          <!-- Crown jewels -->
           <circle cx="12" cy="18" r="6" fill="#ffffff"/>
           <circle cx="90" cy="5" r="7" fill="#ffffff"/>
           <circle cx="168" cy="18" r="6" fill="#ffffff"/>
+
+          <circle cx="52" cy="48" r="3" fill="#ffffff"/>
+          <circle cx="128" cy="48" r="3" fill="#ffffff"/>
+
+          <!-- Silver highlights -->
+          <path
+            d="M12 22 L25 68 M90 5 L90 39 M168 22 L155 68"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="1.5"
+            opacity="0.7"
+          />
+
         </svg>
       </div>
 
       <!-- DIGITAL FARAVAHAR INSPIRED SYMBOL -->
       <div class="emblem-symbol">
-
         <svg viewBox="0 0 320 260" role="img" aria-label="Silver digital Faravahar inspired symbol">
 
           <defs>
@@ -83,24 +169,19 @@
              stroke-linecap="round"
              stroke-linejoin="round">
 
-            <!-- WINGS -->
             <path d="M160 83 C125 48 80 30 18 28 C52 63 77 92 105 111"/>
             <path d="M160 83 C195 48 240 30 302 28 C268 63 243 92 215 111"/>
 
-            <!-- BODY -->
             <path d="M160 83 L160 170"/>
             <path d="M105 111 L130 140 L160 150 L190 140 L215 111"/>
 
-            <!-- LOWER WINGS -->
             <path d="M160 170 C128 184 102 184 77 173"/>
             <path d="M160 170 C192 184 218 184 243 173"/>
 
-            <!-- TAIL -->
             <path d="M160 170 C147 202 126 220 100 232"/>
             <path d="M160 170 C173 202 194 220 220 232"/>
             <path d="M160 170 L160 225"/>
 
-            <!-- DIGITAL DETAILS -->
             <path d="M105 111 L50 102"/>
             <path d="M215 111 L270 102"/>
 
@@ -356,4 +437,3 @@
 
 </body>
 </html>
-
