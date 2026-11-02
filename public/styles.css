@@ -1,1 +1,123 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#0b0b12;color:#f4f2f8;font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.site-header{height:86px;padding:0 7vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12;position:relative;z-index:5;background:#0b0b12}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:36px;height:36px;border:1px solid #a78bfa;border-radius:11px;display:grid;place-items:center;font:800 20px Manrope;color:#fff}.brand-mark span,.principle-mark span{color:#a78bfa}.brand-name{font:800 14px Manrope;letter-spacing:2px}.brand-name small{display:block;font-size:8px;letter-spacing:4px;color:#9992aa;margin-top:3px}.site-header nav{display:flex;gap:36px;color:#aaa5b5;font-size:12px}.site-header nav a:hover,.text-link:hover{color:#c4b5fd}.header-link{font-size:12px;border:1px solid} #ffffff35;border-radius:30px;padding:11px 19px}.hero{min-height:650px;padding:130px 12vw 90px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 77% 45%,#32205255 0,transparent 38%),linear-gradient(120deg,#0b0b12,#11101a)}.eyebrow,.section-label{font:600 10px Manrope;letter-spacing:2.8px;color:#a99bbf}.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#a78bfa;margin-right:9px;box-shadow:0 0 12px #a78bfa}.hero h1,.closing h2{font:800 clamp(48px,7vw,88px)/1.08 Manrope;letter-spacing:-4px;margin:27px 0}.hero h1 span,.section h2 span,.closeing h2 span{color:#a78bfa}.hero-copy{max-width:450px;color:#aaa5b5;font-size:16px;line-height:1.8}.hero-actions{display:flex;align-items:center;gap:28px;margin-top:36px}.button{display:inline-flex;align-items:center;gap:25px;padding:15px 20px;border-radius:4px;font-size:12px;font-weight:700}.button-primary{background:#a78bfa;color:#130d20}.button-primary:hover{background:#c4b5fd}.text-link{font-size:12px;color:#bdb6c9}.hero-orbit{position:absolute;border:1px solid #a78bfa24;border-radius:50%;pointer-events:none}.orbit-one{width:430px;height:430px;right:11%;top:100px}.orbit-two{width:310px;height:310px;right:15.2%;top:160px;border-color:#a78bfa38}.hero-core{position:absolute;right:calc(11% + 127px);top:290px;color:#e9ddff;font:800 24px Manrope;letter-spacing:3px;text-shadow:0 0 35px #a78bfa}.hero-core span{font-size:10px;vertical-align:top}.hero-caption{position:absolute;bottom:40px;right:12%;font:600 9px Manrope;letter-spacing:2px;color:#716b7d}.hero-caption i{display:inline-block;width:25px;border-top:1px solid #a78bfa;margin:0 12px 3px}.section{padding:110px 12vw}.intro{display:grid;grid-template-columns:1fr 2fr;border-bottom:1px solid #ffffff15}.section h2{font:700 clamp(34px,4vw,52px)/1.2 Manrope;letter-spacing:-2px;margin:0 0 25px}.intro p,.principle p{max-width:620px;color:#aaa5b5;line-height:1.9;font-size:14px}.divisions{background:#101019}.section-heading{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:55px}. (این متن به نظر مجموعه‌ای از حروف و اعداد است و نیازی به ترجمه ندارد. لطفا متن اصلی را ذکر کنید تا ترجمه دقیق‌تر شود.)عنوان بخش h2{font-size:42px}.division-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.division-card{min-height:260px;border:1px solid #ffffff17;padding:25px 20px;position:relative;background:linear-gradient(145deg,#ffffff08,transparent)}.division-card:hover{border-color:#a78bfa77;transform:translateY(-3px);transition:.2s}.card-number{position:absolute;right:20px;top:22px;color:#6f687b;font:11px Manrope}.card-icon{font-size:28px;color:#bda8ff;margin:23px 0 25px}.division-card h3{font:700 15px Manrope}.division-card p{font-size:12px;color:#9993a5;line-height:1.7;min-height:62px}.card-state{font:600 8px Manrope;letter-spacing:2px;color:#bda8ff}.principle-content{display:grid;grid-template-columns:120px 1fr;gap:30px;margin:40px 0 65px}.principle-mark{font:800 76px Manrope;color:#fff}.principle h2{margin-bottom:18px}.milestones{border-top:1px solid #ffffff20}.milestones div{display:grid;grid-template-columns:70px 1fr 110px;padding:19px 0;border-bottom:1px solid #ffffff20;align-items:center}.milestones b{font:600 11px Manrope;color:#a78bfa}.milestones span{font-size:13px}.milestones em{font:600 8px Manrope;letter-spacing:1.5px;color:#898295;text-align:right;font-style:normal}.closing{padding:90px 12vw;background:radial-gradient(ellipse at 80% 50%,#35235a66,transparent 45%),#11101a}.closing h2{font-size:60px;margin:25px ‎0}.closing .button{margin-top:10px}footer{padding:30px 7vw;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff18;color:#817b8c;font-size:10px}.footer-brand{color:#fff}footer p{letter-spacing:1px}@media(max-width:800px){.site-header{padding:0 6vw}.site-header nav{gap:14px}.site-header nav a{font-size:10px}.header-link{display:none}.hero{padding:110px 8vw 100px;min-height:680px}.hero-orbit{right:-140px;top:300px;opacity:.55}.orbit-two{right:-80px;top:360px}.hero-core{right:30px;top:495px}.hero-caption{right:8vw}.section{padding:75px 8vw}.intro{grid-template-columns:1fr;gap:35px}.section-heading{display:block}.section-heading h2{margin-top:25px}.division-grid{grid-template-columns:repeat(2,1fr)}.principle-content{grid-template-columns:1fr;gap:10px}.principle-mark{font-size:55px}.closing{padding:75px 8vw}.closing h2{font-size:48px}footer{padding:25px 6vw;gap:15px;flex-wrap:wrap}footer p{display:none}}@media(max-width:420px){.site-header nav{gap:9px}.site-header nav a{font-size:9px}.brand-name{font-size:12px}.division-grid{grid-template-columns:1fr}.division-card{min-height:220px}.milestones div{grid-template-columns:40px 1fr 85px}.milestones span{font-size:11px}.milestones em{font-size:7px}.hero h1{letter-spacing:-2px}}absolute;right:20px;top:22px;color:#6f687b;font:11px Manrope}.card-icon{font-size:28px;color:#bda8ff;margin:23px 0 25px}.division-card h3{font:700 15px Manrope}.division-card p{font-size:12px;color:#9993a5;line-height:1.7;min-height:62px}.card-state{font:600 8px Manrope;letter-spacing:2px;color:#bda8ff}.principle-content{display:grid;grid-template-columns:120px 1fr;gap:30px;margin:40px 0 65px}.principle-mark{font:800 76px Manrope;color:#fff}.principle h2{margin-bottom:18px}.milestones{border-top:1px solid #ffffff20}.milestones div{display:grid;grid-template-columns:70px 1fr 110px;padding:19px 0;border-bottom:1px solid #ffffff20;align-items:center}.milestones b{font:600 11px Manrope;color:#a78bfa}.milestones span{font-size:13px}.milestones em{font:600 8px Manrope;letter-spacing:1.5px;color:#898295;text-align:right;font-style:normal}.closing{padding:90px 12vw;background:radial-gradient(ellipse at 80% ۵۰٪،#۳۵۲۳۵a۶۶،شفاف ۴۵٪،#۱۱۱۰۱a}.بستن h2{font-size:60px;margin:25px 0}.بستن .button{margin-top:10px}footer{padding:30px 7vw;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff18;color:#817b8c;font-size:10px}.footer-brand{color:#fff}footer p{letter-spacing:1px}@media(max-width:800px){.site-header{padding:0 6vw}.site-header nav{gap:14px}.site-header nav a{font-size:10px}.header-link{display:none}.hero{padding:110px 8vw 100px;min-height:680px}.hero-orbit{right:-140px;top:300px;opacity:.55}.orbit-two{right:-80px;top:360px}.hero-core{right:30px;top:495px}.hero-caption{right:8vw}.section{padding:75px 8vw}.intro{grid-template-columns:1fr;gap:35px}.section-heading{display:block}.section-heading h2{margin-top:25px}.division-grid{grid-template-columns:repeat(2,1fr)}.principle-content{grid-template-columns:1fr;gap:10px}.principle-mark{font-size:55px}.closing{padding:75px 8vw}.closing h2{font-size:48px}footer{padding:25px 6vw;gap:15px;flex-wrap:wrap}footer p{display:none}}@media(max-width:420px){.site-header nav{gap:9px}.site-header nav a{font-size:9px}.brand-name{font-size:12px}.division-grid{grid-template-columns:1fr}.division-card{min-height:220px}.milestones div{grid-template-columns:40px 1fr 85px}.milestones span{font-size:11px}.milestones em{font-size:7px}.hero h1{letter-spacing:-2px}}absolute;right:20px;top:22px;color:#6f687b;font:11px Manrope}.card-icon{font-size:28px;color:#bda8ff;margin:23px 0 25px}.division-card h3{font:700 15px Manrope}.division-card p{font-size:12px;color:#9993a5;line-height:1.7;min-height:62px}.card-state{font:600 8px Manrope;letter-spacing:2px;color:#bda8ff}.principle-content{display:grid;grid-template-columns:120px 1fr;gap:30px;margin:40px 0 65px}.principle-mark{font:800 76px Manrope;color:#fff}.principle h2{margin-bottom:18px}.milestones{border-top:1px solid #ffffff20}.milestones div{display:grid;grid-template-columns:70px 1fr 110px;padding:19px 0;border-bottom:1px solid #ffffff20;align-items:center}.milestones b{font:600 11px Manrope;color:#a78bfa}.milestones span{font-size:13px}.milestones em{font:600 8px Manrope;letter-spacing:1.5px;color:#898295;text-align:right;font-style:normal}.closing{padding:90px 12vw;background:radial-gradient(ellipse at 80% ۵۰٪،#۳۵۲۳۵a۶۶،شفاف ۴۵٪،#۱۱۱۰۱a}.بستن h2{font-size:60px;margin:25px 0}.بستن .button{margin-top:10px}footer{padding:30px 7vw;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff18;color:#817b8c;font-size:10px}.footer-brand{color:#fff}footer p{letter-spacing:1px}@media(max-width:800px){.site-header{padding:0 6vw}.site-header nav{gap:14px}.site-header nav a{font-size:10px}.header-link{display:none}.hero{padding:110px 8vw 100px;min-height:680px}.hero-orbit{right:-140px;top:300px;opacity:.55}.orbit-two{right:-80px;top:360px}.hero-core{right:30px;top:495px}.hero-caption{right:8vw}.section{padding:75px 8vw}.intro{grid-template-columns:1fr;gap:35px}.section-heading{display:block}.section-heading h2{margin-top:25px}.division-grid{grid-template-columns:repeat(2,1fr)}.principle-content{grid-template-columns:1fr;gap:10px}.principle-mark{font-size:55px}.closing{padding:75px 8vw}.closing h2{font-size:48px}footer{padding:25px 6vw;gap:15px;flex-wrap:wrap}footer p{display:none}}@media(max-width:420px){.site-header nav{gap:9px}.site-header nav a{font-size:9px}.brand-name{font-size:12px}.division-grid{grid-template-columns:1fr}.division-card{min-height:220px}.milestones div{grid-template-columns:40px 1fr 85px}.milestones span{font-size:11px}.milestones em{font-size:7px}.hero h1{letter-spacing:-2px}}نقاط عطف em{font:600 8px Manrope;letter-spacing:1.5px;color:#898295;text-align:right;font-style:normal}.closing{padding:90px 12vw;background:radial-gradient(ellipse at 80% 50%,#35235a66,transparent 45%),#11101a}.closing h2{font-size:60px;margin:25px 0}.closing .button{margin-top:10px}footer{padding:30px 7vw;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff18;color:#817b8c;font-size:10px}.footer-brand{color:#fff}footer p{letter-spacing:1px}@media(max-width:800px){.site-header{padding:0 6vw}.site-header nav{gap:14px}.site-header nav a{font-size:10px}.header-link{display:none}.hero{padding:110px 8vw 100px;min-height:680px}.hero-orbit{right:-140px;top:300px;opacity:.55}.orbit-two{right:-80px;top:360px}.hero-core{right:30px;top:495px}.hero-caption{right:8vw}.section{padding:75px 8vw}.intro{grid-template-columns:1fr;gap:35px}.section-heading{display:block}.section-heading h2{margin-top:25px}.division-grid{grid-template-columns:repeat(2,1fr)}.principle-content{grid-template-columns:1fr;gap:10px}.principle-mark{font-size:55px}.closing{padding:75px 8vw}.closing h2{font-size:48px}footer{padding:25px 6vw;gap:15px;flex-wrap:wrap}footer p{display:none}}@media(max-width:420px){.site-header nav{gap:9px}.site-header nav a{font-size:9px}.brand-name{font-size:12px}.division-grid{grid-template-columns:1fr}.division-card{min-height:220px}.milestones div{grid-template-columns:40px 1fr 85px}.milestones span{font-size:11px}.milestones em{font-size:7px}.hero h1{letter-spacing:-2px}}نقاط عطف em{font:600 8px Manrope;letter-spacing:1.5px;color:#898295;text-align:right;font-style:normal}.closing{padding:90px 12vw;background:radial-gradient(ellipse at 80% 50%,#35235a66,transparent 45%),#11101a}.closing h2{font-size:60px;margin:25px 0}.closing .button{margin-top:10px}footer{padding:30px 7vw;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff18;color:#817b8c;font-size:10px}.footer-brand{color:#fff}footer p{letter-spacing:1px}@media(max-width:800px){.site-header{padding:0 6vw}.site-header nav{gap:14px}.site-header nav a{font-size:10px}.header-link{display:none}.hero{padding:110px 8vw 100px;min-height:680px}.hero-orbit{right:-140px;top:300px;opacity:.55}.orbit-two{right:-80px;top:360px}.hero-core{right:30px;top:495px}.hero-caption{right:8vw}.section{padding:75px 8vw}.intro{grid-template-columns:1fr;gap:35px}.section-heading{display:block}.section-heading h2{margin-top:25px}.division-grid{grid-template-columns:repeat(2,1fr)}.principle-content{grid-template-columns:1fr;gap:10px}.principle-mark{font-size:55px}.closing{padding:75px 8vw}.closing h2{font-size:48px}footer{padding:25px 6vw;gap:15px;flex-wrap:wrap}footer p{display:none}}@media(max-width:420px){.site-header nav{gap:9px}.site-header nav a{font-size:9px}.brand-name{font-size:12px}.division-grid{grid-template-columns:1fr}.division-card{min-height:220px}.milestones div{grid-template-columns:40px 1fr 85px}.milestones span{font-size:11px}.milestones em{font-size:7px}.hero h1{letter-spacing:-2px}}نقاط عطف em{font-size:7px}.hero h1{letter-spacing:-2px}}نقاط عطف em{font-size:7px}.hero h1{letter-spacing:-2px}}
+
+/* =================================
+   IRZIAN — GALACTIC ROYAL IDENTITY
+================================= */
+
+body {
+  position: relative;
+  background-color: #05030b;
+  background-image:
+    radial-gradient(ellipse at 50% 15%,
+      rgba(112, 48, 190, 0.32), transparent 43%),
+    radial-gradient(ellipse at 10% 55%,
+      rgba(72, 30, 130, 0.20), transparent 42%),
+    radial-gradient(ellipse at 90% 75%,
+      rgba(100, 35, 170, 0.18), transparent 40%),
+    radial-gradient(ellipse at 50% 100%,
+      rgba(65, 25, 110, 0.22), transparent 50%),
+    linear-gradient(180deg, #05030b, #10091c 55%, #07040e);
+  background-attachment: fixed;
+  color: #f5f1ff;
+}
+
+/* Galaxy stars */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.55;
+  background-image:
+    radial-gradient(1px 1px at 10% 15%, #fff, transparent),
+    radial-gradient(1px 1px at 25% 75%, #d9c7ff, transparent),
+    radial-gradient(2px 2px at 42% 32%, #fff, transparent),
+    radial-gradient(1px 1px at 58% 85%, #fff, transparent),
+    radial-gradient(1px 1px at 72% 20%, #d9c7ff, transparent),
+    radial-gradient(2px 2px at 88% 60%, #fff, transparent),
+    radial-gradient(1px 1px at 95% 12%, #fff, transparent),
+    radial-gradient(1px 1px at 15% 92%, #d9c7ff, transparent),
+    radial-gradient(1px 1px at 64% 48%, #fff, transparent);
+}
+
+/* Keep page content above stars */
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Royal emblem */
+
+.brand-emblem {
+  position: relative;
+  isolation: isolate;
+}
+
+.emblem-glow {
+  background: radial-gradient(
+    ellipse,
+    rgba(145, 75, 255, 0.30),
+    rgba(90, 35, 160, 0.12) 45%,
+    transparent 72%
+  );
+  filter: blur(30px);
+}
+
+/* Crown with founder initial */
+
+.crown-wrap {
+  position: relative;
+  width: 112px;
+  height: 76px;
+  margin: 0 auto 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crown-wrap .crown {
+  display: block;
+  width: 112px;
+  height: 76px;
+  margin: 0;
+  object-fit: contain;
+  filter:
+    brightness(1.15)
+    drop-shadow(0 0 5px rgba(235, 238, 255, 0.7))
+    drop-shadow(0 0 14px rgba(167, 139, 250, 0.35));
+}
+
+.crown-wrap::after {
+  content: "M";
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  color: #a78bfa;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow:
+    0 0 4px #c4b5fd,
+    0 0 10px #8b5cf6,
+    0 0 20px rgba(139, 92, 246, 0.9);
+  pointer-events: none;
+}
+
+/* Silver and purple identity */
+
+.emblem-frame {
+  border-color: rgba(220, 210, 255, 0.38);
+  box-shadow:
+    0 0 35px rgba(139, 92, 246, 0.18),
+    inset 0 0 25px rgba(167, 139, 250, 0.06);
+}
+
+.emblem-signature {
+  color: #c4b5fd;
+  letter-spacing: 3px;
+}
